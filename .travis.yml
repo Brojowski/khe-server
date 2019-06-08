@@ -1,0 +1,9 @@
+sudo: false
+dist: xenial # otherwise 'python3-pip' won't be available
+language: python
+python:
+  - "3.7"
+before_install:
+  - "pip3 install -r requirements.txt"
+script:
+  - pytest

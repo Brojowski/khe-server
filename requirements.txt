@@ -1,1 +1,4 @@
 Flask==0.12.3
+pytest==4.6.2
+pytest-flask==0.15.0
+requests==2.22.0
